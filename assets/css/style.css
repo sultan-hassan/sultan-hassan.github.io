@@ -306,51 +306,21 @@ main {
 }
 
 
-body                                                                                                                                             {
-pointer-events: none;
-background-image: url("./assets/images/try3.png");
-background-color: rgba(13, 21, 25, 0.7);
-background-size: 350px;
-border-radius: 3px;
-content: '';
-display: block;
-height: 100%;
-left: 0;
-opacity: 0.9;
-position: absolute;
-top: 0;
-width: 100%;
+body {
+    //pointer-events: all;
+    background-image: url("./assets/images/try3.png");
+    background-color: rgba(13, 21, 25, 0.7);
+    background-size: 350px;
+    border-radius: 3px;
+    content: '';
+    display: '';
+    height: 100%;
+    left: 0;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    width: 100%;/
 }
-
-
-
-.arrow {
-  border: solid white;
-  border-width: 0 3px 3px 0 ;
-  display: inline-block;
-  padding: 2px;
-}
-
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
