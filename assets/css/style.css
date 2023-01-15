@@ -306,21 +306,23 @@ main {
 }
 
 
-body {
+/*
+//body {
     //pointer-events: all;
-    background-image: url("./assets/images/try3.png");
-    background-color: rgba(13, 21, 25, 0.7);
-    background-size: 350px;
-    border-radius: 3px;
-    content: '';
-    display: '';
-    height: 100%;
-    left: 0;
-    opacity: 0.9;
-    position: absolute;
-    top: 0;
-    width: 100%;/
-}
+  //  background-image: url("/assets/images/try3.png");
+    //background-color: rgba(13, 21, 25, 0.7);
+    //background-size: 350px;
+    //border-radius: 3px;
+    //content: '';
+    //display: '';
+    //height: 100%;
+    //left: 0;
+    //opacity: 0.9;
+    //position: absolute;
+    //top: 0;
+    //width: 100%;
+    //}
+*/
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
@@ -343,8 +345,8 @@ body {
 }
 
 .avatar-box {
-  #background: var(--bg-gradient-onyx);
-  #border-radius: 40px;
+  background: var(--bg-gradient-onyx);
+  border-radius: 40px;
   max-width: 100%;
 }
 
