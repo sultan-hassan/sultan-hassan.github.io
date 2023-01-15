@@ -168,7 +168,7 @@ body { background: var(--smoky-black); }
 article {
   background: var(--eerie-black-2);
   border: 1px solid var(--jet);
-  border-radius: 40px;
+  border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
   z-index: 1;
@@ -309,7 +309,8 @@ main {
 body                                                                                                                                                                                                    
 {
 //                        pointer-events: none;
-background-image: url("/assets/images/try3.png");
+background-image: <img src="./assets/images/try3.png" alt="">;
+    /*url("/assets/images/try3.png");*/
 background-color: rgba(13, 21, 25, 0.7);
 background-size: 350px;
 border-radius: 3px;
@@ -454,8 +455,8 @@ width: 100%;
 }
 
 .contact-info {
-  max-width: calc(100%);
-  width: calc(100%);
+  max-width: calc(100% - 46px);
+  width: calc(100% - 46px);
 }
 
 .contact-title {
