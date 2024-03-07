@@ -306,6 +306,7 @@ main {
 }
 
 
+/* -----*\
 body                                                                                                                                                                                                    
 {
 //                        pointer-events: none;
@@ -351,6 +352,7 @@ width: 100%;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+/* -----*\
 
 /*-----------------------------------*\
   #SIDEBAR
