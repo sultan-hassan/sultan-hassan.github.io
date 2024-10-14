@@ -1,0 +1,141 @@
+/* Basic Styles for a Simple Portfolio Website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.justified-text {
+    text-align: justify; /* Justifies the text in this specific paragraph */
+    margin: 20px; /* Optional: Adds margin around the paragraph */
+}
+
+%body {
+%    background-color: white;
+%    color: black;
+%    font-size: 22px; /* Base font size */
+%    line-height: 1.6;
+%}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 22px;
+   color: black;
+     margin: 0;
+    padding: 0;
+    background-image: url(''); /* Placeholder for the background image */
+    background-size: cover; /* Covers the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.student-group ul {
+    list-style-type: none;
+}
+
+.student-group li {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 10px; /* Space between students */
+}
+
+.student-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular images */
+    margin-right: 10px; /* Space between image and text */
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.event-card {
+    display: inline-block; /* Allow cards to sit next to each other */
+    width: 150px; /* Set a fixed width for the cards */
+    margin: 10px; /* Space between cards */
+    text-align: center; /* Center text in the card */
+    border: 1px solid #ccc; /* Border around the card */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow for rounded corners */
+}
+
+.event-pic {
+    width: 100%; /* Full width for responsive images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  
+    body {font-size: 14px;}
+    nav ul {
+        flex-direction: column; /* Stack menu items vertically */
+    }
+
+    header, section {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    .profile-pic {
+        width: 200px;
+        height: 200px; /* Smaller profile picture */
+    }
+
+    .student-pic {
+        width: 40px;
+        height: 40px; /* Smaller student pictures */
+    }
+
+    .event-card {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
