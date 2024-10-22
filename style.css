@@ -21,9 +21,9 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    font-size: 50px;
-   color: black;
-     margin: 0;
+    font-size: 22px;
+    color: black;
+    margin: 0;
     padding: 0;
     background-image: url(''); /* Placeholder for the background image */
     background-size: cover; /* Covers the entire viewport */
