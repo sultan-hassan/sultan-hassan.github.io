@@ -7,7 +7,7 @@
 }
 .justified-text {
     text-align: justify; /* Justifies the text in this specific paragraph */
-    margin: 20px; /* Optional: Adds margin around the paragraph */
+    margin: 500px; /* Optional: Adds margin around the paragraph */
 }
 
 %body {
@@ -23,7 +23,7 @@ body {
     line-height: 1.6;
     font-size: 22px;
    color: black;
-     margin: 0;
+     margin: 500px;
     padding: 0;
     background-image: url(''); /* Placeholder for the background image */
     background-size: cover; /* Covers the entire viewport */
