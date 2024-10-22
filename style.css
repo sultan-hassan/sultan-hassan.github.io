@@ -1,4 +1,8 @@
 /* Basic Styles for a Simple Portfolio Website */
+.zoom {
+    zoom: 2;
+}
+
 * {
     margin: 0;
     padding: 0;
